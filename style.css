@@ -1,0 +1,50 @@
+/*We're looking at the whole page here*/
+
+body{
+	background-color: lightcoral;
+}
+
+/*Let's put a border around the paragraph*/
+
+div{
+	border-style: solid;
+	border-width: 10px;
+	border-color: green;
+}
+
+/*Let's put some color in the div container 
+to see it better.*/
+
+div{
+	background-color: lightyellow;
+}
+
+/*Let's give the text inside the box some (white)space*/
+div{
+	padding: 20px;
+}
+
+/*Let's give whole box some (white)space on the page*/
+div{
+	margin: 50px;
+}
+
+/*What if I want the container to be smaller*/
+div{
+	max-width: 50%;
+}
+
+/*I can use margin: auto; to center the box*/
+div{
+	margin: auto;
+	margin-top: 50px;
+}
+
+/*This moves the text to the center*/
+div{
+	text-align: center;
+}
+
+
+
+
